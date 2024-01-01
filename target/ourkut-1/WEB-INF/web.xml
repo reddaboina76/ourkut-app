@@ -1,0 +1,16 @@
+<web-app>
+	<servlet>
+		<servlet-name>chiru</servlet-name>
+		<servlet-class>com.practices.servlets.UserServlet</servlet-class>
+	</servlet>
+
+	<servlet-mapping>
+		<servlet-name>chiru</servlet-name>
+		<url-pattern>/DisplyName</url-pattern>
+	</servlet-mapping>
+
+	<welcome-file-list>
+		<welcome-file>Home.jsp</welcome-file>
+	</welcome-file-list>
+
+</web-app>
